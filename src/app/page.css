@@ -1,0 +1,39 @@
+.main-left{
+  width: 50%;
+  text-align: center;
+  padding: 100px;
+  font-size:3.8rem;
+  background: linear-gradient(1turn, #8c52ff, #f7a471);
+  align-items: center;
+  border: none;
+  padding-top: 50px !important;
+  margin: 0;
+}
+
+.main-left p{
+  color: white;
+  font-weight:700;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.main-right{
+  
+  width: 50%;
+  text-align: center;
+  padding-top: 30px !important;
+  padding: 100px;
+ 
+  align-items: center;
+}
+
+.try{
+  font-size: xxx-large;
+  background: -webkit-linear-gradient(0.3turn, #8c52ff, #ff914d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
