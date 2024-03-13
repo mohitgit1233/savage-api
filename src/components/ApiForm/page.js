@@ -4,7 +4,7 @@ import { useState } from "react"
 import "../component.css";
 
 const ApiForm = () => {
-  const [apiUrl, setApiUrl] = useState("http://localhost:3000/api/savage-excuses")
+  const [apiUrl, setApiUrl] = useState("https://savage-api.vercel.app/api/savage-excuses")
   const [excuseVar, setExcuse] = useState({})
   const sendRequest = async () => {
     const response = await fetch(apiUrl, { cache: 'no-store' })
