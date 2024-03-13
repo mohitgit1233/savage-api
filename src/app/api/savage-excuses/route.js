@@ -123,5 +123,6 @@ export async function GET(request){
       ];
 
         const randomExcuse = savageExcuses[Math.floor(Math.random() * savageExcuses.length)];
+        console.log(randomExcuse+"see")
         return new Response(JSON.stringify(randomExcuse));
     }
